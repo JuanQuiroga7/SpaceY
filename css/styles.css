@@ -11,12 +11,28 @@ body{
 }
 
 header{
-    background: #d7d5d556;
-    color: white;
+    background: #d7d5d525;
+    display: flex;
     position: fixed;
     top: 0;
     width: 100%;
+    padding-block: 2%;
+    padding-inline-start:2% ;
+    padding-inline-end: 5%;
     backdrop-filter: blur(5px);
+    color: white;
+    z-index: 5;
+    justify-content: space-between;
+}
+
+header >div{
+    display: flex;
+    gap: 5%;
+}
+
+header >div a{
+    text-decoration: none;
+    color: white;
 }
 
 .first-section{
@@ -24,7 +40,21 @@ header{
     /* background: #000; */
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
+
+.first_article{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    left: 7%;
+    top: 40%;
+    color: white;
+}
+
+
 
 
 .first-section img{
