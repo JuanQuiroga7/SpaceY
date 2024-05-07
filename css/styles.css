@@ -33,3 +33,12 @@ header{
     
 }
 
+.second__section{
+    display: flex;
+    justify-content: center;
+}
+
+.second__section img{
+    width: 100%;
+}
+
