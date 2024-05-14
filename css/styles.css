@@ -47,13 +47,41 @@ header >div a{
 .first_article{
     position: absolute;
     display: flex;
-    width: 30%;
+    width: 35%;
     flex-direction: column;
-    left: 7%;
-    top: 40%;
+    left: 30%;
+    top:25%;
     color: white;
+    gap: 30px;
+    justify-content: center;
+    filter: drop-shadow(0 0 10px);
+
 }
 
+.first_article > h1{
+    /* background: var(--color-three); */
+    width: 55%;
+    font-size: 3vw;
+}
+
+.first_article > p{
+
+    /* background: blue; */
+    width: 85%;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+.first_article > button{
+    border-style: none;
+    color: #000;
+    background: var(--color-one);
+    width: 35%;
+    height: 5vh;
+    border-radius: 25px;
+    font-size: 1vw;
+
+}
 
 
 
@@ -62,6 +90,7 @@ header >div a{
     width: 100%;
     
 }
+
 
 .second__section{
     display: flex;
@@ -72,3 +101,7 @@ header >div a{
     width: 100%;
 }
 
+.third__section img{
+    /* background: blue; */
+    width: 100%;
+}
